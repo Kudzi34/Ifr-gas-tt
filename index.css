@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: darkgray;
+  text-shadow: 1px 1px 1px darkslateblue;
+  font-size: 40px;
+}
+.container {
+  background-color: aliceblue;
+}
+#moviesDisplay {
+  box-shadow: 10px -15px 2px black;
+  border: 1px white solid;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  background-image: url(./movie.jpg);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#moviesDisplay ul {
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  padding: 10px;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(147, 160, 181);
+}
+
+.btn {
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border: 1px solid black;
+}
+#movie-responseText {
+  overflow: hidden;
+  padding: 15px;
+  border: solid 1px whitesmoke;
+  width: 80%;
+  height: 800px;
+  background-color: rgb(134, 170, 194);
+  font-family: sans-serif;
+  font-size: 21px;
+  text-align: justify;
+  margin: 0 auto;
+  color: ghostwhite;
+  text-shadow: 1px 1px 1px black;
+}
+.container2 {
+  height: 900px;
+  background-color: #13152b;
+}
+#actors {
+  color: black;
+}
